@@ -15,7 +15,7 @@ int Duration::getDuration()
 Duration::Duration()
 {
     time = 0;
-    alarm = -1;
+    alarm = -1; // default value for alarm
     alarmHasBeenSet = false;
 }
 
@@ -26,8 +26,8 @@ Duration::Duration(int t)
 
     // postcondition
     time = t;
-    alarm = -1;
-    alarmHasBeenSet = false;
+    alarm = -1; // default value for alarm
+    alarmHasBeenSet = false; // default value for alarmHasBeenSet
 }
 
 // destructor
@@ -53,21 +53,37 @@ bool Duration:: tick(int dt)
 }
 
 void Duration:: setAlarm(int t)
-{
-    assert(t > time);
-    alarm = t;
-    alarmHasBeenSet = true;
+{   
+    // we could've used an "assert-statement" here, but then cMake would not be able to test when the user would try to set the alarm to a value in the past.
+
+    // if user tries to set alarm to a value in the future then set alarm.
+    if(t > time)
+    {
+        alarm = t;
+        alarmHasBeenSet = true;
+    }
+    // else: do nothing
+    return;
 }
 
 
 bool Duration:: checkAndUpdateAlarm()
 {
-     // alarm goes off
+    // alarm goes off
     if (time >= alarm)
     {
-        alarm = -1;
+        // alarm is reset to default value
+        alarm = -1; 
+
+        // alarm has been reset, alarmHasBeenSet-attribute must also reset
+        alarmHasBeenSet = false;
         return true;
     }
     // alarm does not go off
     return false;
+}
+
+bool Duration:: HasAlarmBeenSet()
+{
+    return alarmHasBeenSet;
 }

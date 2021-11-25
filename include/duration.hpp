@@ -17,6 +17,7 @@ class Duration
         bool tick(int dt);
         void setAlarm(int t);
         bool checkAndUpdateAlarm();
+        bool HasAlarmBeenSet();
         
 
 };
