@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mymath.dir/src/duration.cpp.o"
-  "CMakeFiles/mymath.dir/src/duration.cpp.o.d"
+  "CMakeFiles/mymath.dir/src/duration.cpp.obj"
+  "CMakeFiles/mymath.dir/src/duration.cpp.obj.d"
   "libmymath.a"
   "libmymath.pdb"
 )

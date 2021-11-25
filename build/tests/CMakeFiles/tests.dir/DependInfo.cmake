@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/asgerpoulsen/Desktop/Programming Assignments/Week-12-Assignment/assignment-12-asgersong/tests/src/tests.cpp" "tests/CMakeFiles/tests.dir/src/tests.cpp.o" "gcc" "tests/CMakeFiles/tests.dir/src/tests.cpp.o.d"
+  "C:/Users/Asger/Documents/VS code/Week.12.Assignment/assignment-12-asgersong/tests/src/tests.cpp" "tests/CMakeFiles/tests.dir/src/tests.cpp.obj" "gcc" "tests/CMakeFiles/tests.dir/src/tests.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/asgerpoulsen/Desktop/Programming Assignments/Week-12-Assignment/assignment-12-asgersong/build/CMakeFiles/mymath.dir/DependInfo.cmake"
+  "C:/Users/Asger/Documents/VS code/Week.12.Assignment/assignment-12-asgersong/build/CMakeFiles/mymath.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

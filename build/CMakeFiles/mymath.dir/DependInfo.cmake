@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/asgerpoulsen/Desktop/Programming Assignments/Week-12-Assignment/assignment-12-asgersong/src/duration.cpp" "CMakeFiles/mymath.dir/src/duration.cpp.o" "gcc" "CMakeFiles/mymath.dir/src/duration.cpp.o.d"
+  "C:/Users/Asger/Documents/VS code/Week.12.Assignment/assignment-12-asgersong/src/duration.cpp" "CMakeFiles/mymath.dir/src/duration.cpp.obj" "gcc" "CMakeFiles/mymath.dir/src/duration.cpp.obj.d"
   )
 
 # Targets to which this target links.

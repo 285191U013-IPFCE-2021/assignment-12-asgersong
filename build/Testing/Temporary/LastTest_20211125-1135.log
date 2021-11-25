@@ -1,21 +1,21 @@
-Start testing: Nov 25 13:39 CET
+Start testing: Nov 25 16:12 Romance Standard Time
 ----------------------------------------------------------
 1/1 Testing: usage_test
 1/1 Test: usage_test
-Command: "/Users/asgerpoulsen/Desktop/Programming Assignments/Week-12-Assignment/assignment-12-asgersong/build/tests/tests"
-Directory: /Users/asgerpoulsen/Desktop/Programming Assignments/Week-12-Assignment/assignment-12-asgersong/build/tests
-"usage_test" start time: Nov 25 13:39 CET
+Command: "C:/Users/Asger/Documents/VS code/Week.12.Assignment/assignment-12-asgersong/build/tests/tests"
+Directory: C:/Users/Asger/Documents/VS code/Week.12.Assignment/assignment-12-asgersong/build/tests
+"usage_test" start time: Nov 25 16:12 Romance Standard Time
 Output:
 ----------------------------------------------------------
 ===============================================================================
 All tests passed (7 assertions in 2 test cases)
 
 <end of output>
-Test time =   0.23 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"usage_test" end time: Nov 25 13:39 CET
+"usage_test" end time: Nov 25 16:12 Romance Standard Time
 "usage_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 25 13:39 CET
+End testing: Nov 25 16:12 Romance Standard Time

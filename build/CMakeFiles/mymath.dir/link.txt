@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmymath.a CMakeFiles/mymath.dir/src/duration.cpp.o
-/usr/bin/ranlib libmymath.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc libmymath.a CMakeFiles/mymath.dir/src/duration.cpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe libmymath.a
