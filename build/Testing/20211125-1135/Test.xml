@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="3792"
 	>
 	<Testing>
-		<StartDateTime>Nov 25 16:12 Romance Standard Time</StartDateTime>
-		<StartTestTime>1637853129</StartTestTime>
+		<StartDateTime>Nov 25 16:49 Romance Standard Time</StartDateTime>
+		<StartTestTime>1637855355</StartTestTime>
 		<TestList>
 			<Test>./tests/usage_test</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>"C:\Users\Asger\Documents\VS code\Week.12.Assignment\assignment-12-asgersong\build\tests\tests"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0451679</Value>
+					<Value>0.0191565</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -51,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyztaUq4HLMyVEoSS0uKVYoSCwuTk1R0DBXADGKSjLz84oVMvMUjMDyCsmJxanFmlxcAFB8I2k=</Value>
+					<Value encoding="base64" compression="gzip">eJyztaUq4HLMyVEoSS0uKVYoSCwuTk1R0DA0UQCxikoy8/OKFTLzFIzBChSSE4tTizW5uABvgCOY====</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Nov 25 16:12 Romance Standard Time</EndDateTime>
-		<EndTestTime>1637853129</EndTestTime>
+		<EndDateTime>Nov 25 16:49 Romance Standard Time</EndDateTime>
+		<EndTestTime>1637855355</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
